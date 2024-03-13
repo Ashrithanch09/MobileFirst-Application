@@ -5,7 +5,7 @@ const Homepage = () => {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch('https://api.example.com/jokes')
+    fetch('https://v2.jokeapi.dev/joke/any?format=json&blacklistFlags=nsfw,sexist&type=single&lang=EN&amount=10')
       .then((response) => response.json())
       .then((data) => {
         if (!data.error) {
@@ -22,7 +22,7 @@ const Homepage = () => {
   return (
     <div>
       <h2>Jokes</h2>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {error && <p style={{ color: 'red'}}>{error}</p>}
       <table className="table">
         <thead>
           <tr>
