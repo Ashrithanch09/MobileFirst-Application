@@ -24,8 +24,7 @@ This project demonstrates a simple login screen with form validation and a homep
 - `src/index.js`: Entry point of the application.
 
 ## Credits:
-- Jokes API: [Example Jokes API].(https://v2.jokeapi.dev/joke/any?format=json&blacklistFlags=nsfw,sexist&type=single&lang=E
-N&amount=10)
+- Jokes API: [Example Jokes API].(https://v2.jokeapi.dev/joke/any?format=json&blacklistFlags=nsfw,sexist&type=single&lang=EN&amount=10)
 
 ## License:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
